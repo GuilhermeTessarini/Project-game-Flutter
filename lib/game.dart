@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Game extends StatelessWidget {
+class GameScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -9,6 +9,7 @@ class Game extends StatelessWidget {
       ),
       body: const Center(
         child: Text('Tela para o desenvolvimento do jogo!'),
+
       ),
     );
   }

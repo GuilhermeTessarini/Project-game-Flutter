@@ -84,7 +84,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             ),
             SizedBox(height: 10),
             Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: options.map((option) {
                 return ElevatedButton(
                   child: 
@@ -93,6 +93,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                     checkAnswer(option);
                   },
                 );
+                
               }).toList(),
             ),
             SizedBox(height: 20),
