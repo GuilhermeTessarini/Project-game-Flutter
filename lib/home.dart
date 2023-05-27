@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_project_boatematica/credits.dart';
 import 'package:flutter_project_boatematica/game.dart';
 import 'package:flutter_project_boatematica/calculadora.dart';
+import 'package:flutter_project_boatematica/game_menu.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -26,7 +27,7 @@ class Home extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => CalculatorScreen()),
+                      MaterialPageRoute(builder: (context) => GameMenuScreen()),
                     );
                   },
                   child: Container(

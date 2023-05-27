@@ -60,9 +60,19 @@ flutter:
   uses-material-design: true
   assets:
       - assets\background.gif
-      - assets\background_creditos.png
       - assets\botao_play.png
       - assets\botao_creditos.png
+      - assets\soma.png
+      - assets\subtracao.png
+      - assets\divisao.png
+      - assets\multiplicacao.png
+      - assets\parabens1.jpg
+      - assets\parabens2.jpg
+      - assets\parabens3.jpg
+      - assets\consolacao1.jpg
+      - assets\consolacao2.jpg
+      - assets\background.jpeg
+
   
   fonts:
     - family: Creditos
